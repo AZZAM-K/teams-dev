@@ -19,7 +19,7 @@ const Navbar = async () => {
           teams<span className='text-indigo-600'>-dev</span>
         </p>
       </Link>
-      <NavLinks />
+      {session && <NavLinks />}
       <div className='flex flex-1 md:flex-none gap-2 items-center'>
         {session ? (
           <>
