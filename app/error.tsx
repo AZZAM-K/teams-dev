@@ -13,8 +13,8 @@ export default function Error({
 
   return (
     <div className='flex h-screen items-center justify-center flex-col'>
-      <h2 className='text-red-500 text-2xl font-bold text-center'>
-        {error.message}
+      <h2 className='text-2xl font-bold text-center'>
+        oops, something went wrong!
       </h2>
       <button
         onClick={() => window.location.reload()}
