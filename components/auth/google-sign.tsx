@@ -1,5 +1,5 @@
 import { signIn } from '@/auth'
-import GoogleIcon from '@/components/GoogleIcon'
+import GoogleIcon from '@/components/google-icon'
 
 const SignWithGoogle = () => {
   return (

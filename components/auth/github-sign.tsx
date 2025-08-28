@@ -1,5 +1,5 @@
 import { signIn } from '@/auth'
-import GithubIcon from '@/components/GithubIcon'
+import GithubIcon from '@/components/github-icon'
 
 const SignWithGithub = () => {
   return (

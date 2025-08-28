@@ -4,7 +4,7 @@ import './globals.css'
 import { Poppins } from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: 'teams-dev | Home',
+  title: 'Home',
   description: 'Welcome to the teams-dev application',
 }
 
@@ -21,10 +21,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${poppins.className} antialiased bg-gray-600 text-white relative`}
+        className={`${poppins.className} antialiased bg-gray-50 text-gray-900 relative`}
       >
         <Navbar />
-        <main className='pb-22 md:pb-0 pt-0 md:pt-20'>{children}</main>
+        <main className='pb-20 md:pb-0 pt-0 md:pt-18'>{children}</main>
       </body>
     </html>
   )

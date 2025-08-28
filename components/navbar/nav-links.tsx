@@ -15,7 +15,7 @@ const NavLinks = () => {
         className={clsx(
           'flex flex-1 md:flex-none justify-center items-center gap-2 bg-gray-600 md:bg-transparent rounded-md p-2',
           {
-            'text-blue-500': pathname === '/',
+            'text-indigo-600': pathname === '/',
           }
         )}
       >
@@ -27,7 +27,7 @@ const NavLinks = () => {
         className={clsx(
           'flex flex-1 md:flex-none justify-center items-center gap-2 bg-gray-600 md:bg-transparent rounded-md p-2',
           {
-            'text-blue-500': pathname === '/projects',
+            'text-indigo-600': pathname === '/projects',
           }
         )}
       >
@@ -35,11 +35,11 @@ const NavLinks = () => {
         <span className='text-lg hidden md:block'>Projects</span>
       </Link>
       <Link
-        href={'/invites'}
+        href={'/invites?type=received'}
         className={clsx(
           'flex flex-1 md:flex-none justify-center items-center gap-2 bg-gray-600 md:bg-transparent rounded-md p-2',
           {
-            'text-blue-500': pathname === '/invites',
+            'text-indigo-600': pathname === '/invites',
           }
         )}
       >
